@@ -57,10 +57,14 @@ app.get("/", (req, res) => {
 
 // Create MySQL connection lesson 8
 const connection = mysql.createConnection({
-    host: "localhost",
-    user: "root",
-    password: "",
-    database: "c237_gymproject"
+    // host: "localhost",
+    // user: "root",
+    // password: "",
+    // database: "c237_gymproject"
+    host: "freedb.tech",
+    user: "freedb_gymapp",
+    pass: "@ZURq?PEXUV3vTw",
+    database: "freedb_week12db"
 });
 
 connection.connect((err) => {
